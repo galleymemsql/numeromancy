@@ -1,6 +1,8 @@
 # Numeromancy
 This project uses [argmin][argmin] to drive an optimization problem over data stored in [SingleStore][singlestore]. Wasm is used to push cost, gradient, and hessian methods into SingleStore.
 
+**Attention**: The code in this repository is intended for experimental use only and is not fully tested, documented, or supported by SingleStore. Visit the [SingleStore Forums](https://www.singlestore.com/forum/) to ask questions about this repository.
+
 ## Usage
 
 The following instructions assume you are using [VS Code][vscode] and have opened this project in a devcontainer.
